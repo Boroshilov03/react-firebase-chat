@@ -43,7 +43,7 @@ const Login = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }; 
 
   const handleRegister = async (e) => {
     //async function bcz of the database request
